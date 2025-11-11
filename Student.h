@@ -15,7 +15,9 @@ public:
     major = m;
     }
     void display(){
-    person p;
+  void display(){
+    cout<<"yearLevel:"<<yearLevel<<"major: "<<major<<endl;
+    }
     }
 };
 
