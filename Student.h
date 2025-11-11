@@ -16,7 +16,7 @@ public:
     }
     void display(){
   void display(){
-    cout<<"yearLevel:"<<yearLevel<<"major: "<<major<<endl;
+    cout<<"yearLevel:"<<yl<<"major: "<<m<<endl;
     }
     }
 };
