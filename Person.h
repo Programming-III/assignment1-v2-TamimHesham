@@ -10,7 +10,7 @@ string name;
 int id;
 
 public:
-person(string n,string i){
+person(string n,int i){
 name = n;
 id = i;
 }
