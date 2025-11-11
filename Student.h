@@ -4,7 +4,17 @@
 #include "Person.h"
 #include <string>
 #using namespace std;
-//#write student class here
+
+class student:public person{
+private:
+    int yearLevel;
+    string major;
+public:
+    void display(){
+    person p;
+    }
+};
+
 
 
 
