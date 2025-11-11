@@ -11,11 +11,8 @@ public:
     instructor(string d,int el){
     department = d;
     experienceLevel = el;
-   void display(){
-    cout<<"department: "<<d<<"experienceLevel: "<<el<<endl;
-    }
+   void display();
     ~instructor(){
-        
     }
     };
-}
+
