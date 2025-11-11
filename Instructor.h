@@ -14,5 +14,8 @@ public:
    void display(){
     cout<<"department: "<<d<<"experienceLevel: "<<el<<endl;
     }
+    ~instructor(){
+        
+    }
     };
 }
