@@ -16,6 +16,10 @@ id = i;
 }
 void display(){
 cout<<"name: "<<name<<"id: "<<id<<endl;
+}
+~person(){
+  
+}
 };
 
 
