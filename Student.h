@@ -14,11 +14,12 @@ public:
     yearLevel = yl;
     major = m;
     }
-    void display(){
   void display(){
     cout<<"yearLevel:"<<yl<<"major: "<<m<<endl;
     }
-    }
+~student(){
+}
+    
 };
 
 
