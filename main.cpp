@@ -75,6 +75,13 @@ public:
 
 int main() {
  Student s = new student("Tamim",18,2,"cs");
+    instructor i = new instructor("khaled","cs",3);
+ course c = new course("dsa",102,20,4,10);
+ 
+ c.addStudents(s);
+ s.display();
+ i.display();
+ c.displayCourseInfo();
 
     return 0;
 }
