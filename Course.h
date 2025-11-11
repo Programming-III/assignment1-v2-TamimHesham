@@ -4,19 +4,15 @@
 #include <string>
 #include "Student.h"
 using namespace std;
-//#write your code here
+class person{
+private:
+string name;
+int id;
 
-
-
-
-
-
-
-
-
-
-
-
+public:
+void display()
+cout<<"name: "<<name<<"id: "<<id<<endl;
+};
 
 
 #endif
