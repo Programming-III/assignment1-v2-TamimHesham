@@ -17,13 +17,21 @@ public:
    maxStudent = ms;
    students = s;
    currentStudents = cs;
-   
+    }
 ~course(){
-    
 }
-   }
-   
-   
+
+ addStudents(const Student& s){
+ if(currentStudents<maxStudents){
+    currentStudents++;
+ }
+ else{
+    cout<<"cannot add students. limit reached!"<<endl;
+ }
+ }
+ voidDisplayCourseInfo(){
+ cout<<"course code: "<<cc<<"course name:"<<cn<<"max students :"<<ms<<"currently enrolled: "<<cs<<endl;}
+
    };
 
 
