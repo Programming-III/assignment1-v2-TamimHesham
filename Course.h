@@ -21,7 +21,7 @@ public:
 ~course(){
 }
 
- addStudents(const Student& s){
+ addStudents(const student& s){
  if(currentStudents<maxStudents){
     currentStudents++;
  }
