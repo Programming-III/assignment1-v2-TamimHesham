@@ -18,7 +18,9 @@ public:
    students = s;
    currentStudents = cs;
    
-~
+~course(){
+    
+}
    }
    
    
