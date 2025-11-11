@@ -4,10 +4,19 @@
 #include <string>
 using namespace std;
 
-//#write Person class here
+class person{
+private:
+string name;
+int id;
 
-
-
+public:
+person(string n,string i){
+name = n;
+id = i;
+}
+void display(){
+cout<<"name: "<<name<<"id: "<<id<<endl;
+};
 
 
 
