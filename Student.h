@@ -10,10 +10,15 @@ private:
     int yearLevel;
     string major;
 public:
+    student(int yl , string m){
+    yearLevel = yl;
+    major = m;
+    }
     void display(){
     person p;
     }
 };
+
 
 
 
